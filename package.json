@@ -1,0 +1,25 @@
+{
+  "name": "waywards",
+  "version": "1.0.0",
+  "description": "band website",
+  "main": "newApp.js",
+  "dependencies": {
+    "express": "^4.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddata999/waywardsWeb.git"
+  },
+  "author": "dirk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddata999/waywardsWeb/issues"
+  },
+  "engines": {
+    "node": "0.12.5"
+  }
+}
