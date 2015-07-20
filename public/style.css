@@ -1,0 +1,28 @@
+
+body {
+  width: 100%;
+  font-family: 'Allerta', sans-serif;
+  color: #333;
+  margin: 0;
+  background: url('19265170090_1cddac9785_o.jpg') no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+
+}
+
+.leader-h {
+  width: 100%;
+  background-color: #fff;
+    background-color: rgba(200,150,255,0.55);
+  color: #fafafa;
+  padding: 50px 10%;
+  margin: 0;
+}
+
+.btn {
+  margin-top: 20px;
+}
+
+
