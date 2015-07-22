@@ -3,37 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <title>Waywards</title>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css">
 
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 </head>
-<body>
+<body class='bod'>
 
-	<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+  <h1 class="leader-h" id='mainH'> Waywards</h1>
 
-  <h1 class="leader-h"> Waywards</h1>
-
-  <div class="fb-like" data-href="https://www.facebook.com/waywardsmusic?fref=ts" data-width="200px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
-
-  <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script>
-
+  
+<ul id='navigation' class='btnContainer'>
+  
+  <li class='dropdown'> 
   <a href='https://www.facebook.com/waywardsmusic?fref=ts' target="_blank"> <button type="button" class="btn btn-primary btn-lg">Facebook</button> </a>
+  </li>
 
+  <li class='dropdown'>
   <a href='mailto:tony.lopinto@yahoo.com'> <button type="button" class="btn btn-primary btn-lg">Email</button> </a>
+  
+  <li class='dropdown'>
+  <a href='https://waywards.bandcamp.com/' target="_blank"> <button type="button" class="btn btn-primary btn-lg">Music</button> </a>
+  </li>
+
+    <li class='dropdown' id='abt'>
+  <a href='https://www.facebook.com/waywardsmusic/info?tab=page_info' target="_blank"> <button type="button" class="btn btn-primary btn-lg">About The Band</button> </a>
+  </li>
 
 
+  <li class='dropdown' id='end'>
+  <a href='http://i.imgur.com/rCrK8Cc.gif' target="_blank"> <button type="button" class="btn btn-primary btn-lg">Footage Of Band</button> </a>
+  </li>
 
 
-  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="tweet.js"></script>
+</ul>
+
+<script type='text/javascript' src='script.js'></script>
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js">
+  </script>
+
+ 
 </body>
 </html>
