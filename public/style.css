@@ -37,6 +37,7 @@ body {
     background-color: #fff;
     background-color: rgba(200,150,255,0.55);
     overflow: hidden;
+    border: solid white 3px;
 }
 
 li {
