@@ -1,25 +1,22 @@
 
 body {
   width: 100%;
-  font-family: 'Allerta', sans-serif;
-  color: #333;
+  font-family: 'Roboto', sans-serif;
   margin: 0;
-  background: url('19265170090_1cddac9785_o.jpg') no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+  background-color: blue;
 
 }
 
 .leader-h {
   width: 100%;
-  background-color: #fff;
-    background-color: rgba(200,150,255,0.55);
-  color: #fafafa;
+  background-color:;
+    background-color: cornsilk;
+  color: black;
   padding: 50px 10%;
   margin: 0;
-  font-family: 'Allerta', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  border:  ;
 }
 
 .dropdown {
@@ -31,20 +28,36 @@ body {
 .btnContainer {
   margin: auto;
   margin-top: 20px;
-    width: 300px;
-    height: 300px;
+    width: 0 20px;
+    height: auto;
     padding: 30px;
-    background-color: #fff;
-    background-color: rgba(200,150,255,0.55);
+    background-color: ;
+    background-color: white;
     overflow: hidden;
-    border: solid white 3px;
+    border: ;
+}
+
+#navigation {
+  width: auto;
+  text-align: center;
 }
 
 li {
-  margin-top: 30px;
-  float: left;
+  display: inline-block;
   padding: 10px;
+  text-align: center;
+  margin: 0 auto;
 
 }
 
+.phone {
+  font-size: 3em;
+  font-family: 'roboto', sans-serif;
+  margin: auto;
+  text-align: center;
 
+}
+
+.phone:hover {
+  color: lightslategrey;
+}
